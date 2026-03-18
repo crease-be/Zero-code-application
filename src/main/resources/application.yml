@@ -1,0 +1,18 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27018/zero_code_db
+
+langchain4j:
+  open-ai:
+    chat-model:
+      api-key: sk-105332c60e9645a989aadbc1e09bef54
+      base-url: https://api.deepseek.com/v1
+      model-name: deepseek-chat
+      log-requests: true
+      log-responses: true
+
+    streaming-chat-model:
+      api-key: sk-105332c60e9645a989aadbc1e09bef54
+      base-url: https://api.deepseek.com/v1
+      model-name: deepseek-chat
